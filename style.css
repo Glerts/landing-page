@@ -1,5 +1,9 @@
 body{
-    margin: 0;  
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
 .main{
@@ -15,7 +19,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 120px;
-    width: 75%;
+    width: 1100px;
 }
 
 nav img{
@@ -43,7 +47,7 @@ li{
     justify-content: space-between;
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 75%;
+    width: 1100px;
     
 }
 
@@ -77,4 +81,121 @@ h1{
     color: #F9FAF8;
     font-weight: bold;
     border-radius: 5px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1100px;
+    justify-self: center;
+    align-self: center;
+}
+
+.info h2{
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+.image img{
+    height: auto;
+    width: 200px;
+    border: #3882f6 solid;
+    border-radius: 5px;
+}
+
+.info-text{
+    display: flex;
+    width: 1100px;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.info-text p{
+    width: 200px;
+    font-weight: lighter;
+}
+
+.quotes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+blockquote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quotes p{
+    align-self: flex-end;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 620px;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 0 75px 0;
+}
+
+.sign-block{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.sign-text{
+    margin-left: 50px;
+}
+
+#sign-bottom{
+    margin-right: 50px;
+    border: white solid;
+}
+
+.sign-text h3{
+    color: #F9FAF8;
+}
+
+.sign-text p{
+    color: #E5E7EB;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    height: 50px;
+}
+
+footer p{
+    color: #F9FAF8;
 }
